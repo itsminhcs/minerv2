@@ -1,6 +1,6 @@
 # Common args
 --model_name Miner
---pretrained_tokenizer vinai/phobert-base
+--pretrained_tokenizer google-bert/bert-base-uncased
 --user2id_path data/user2id.json
 --category2id_path data/category2id.json
 --max_title_length 32
@@ -17,7 +17,7 @@
 --eval_news_path data/valid/news.tsv
 
 # Model args
---pretrained_embedding vinai/phobert-base
+--pretrained_embedding google-bert/bert-base-uncased
 --apply_reduce_dim
 --use_sapo
 --word_embed_dim 256
