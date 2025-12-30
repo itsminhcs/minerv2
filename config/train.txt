@@ -30,8 +30,8 @@
 
 # Train args
 --npratio 4
---train_batch_size 8
---eval_batch_size 64
+--train_batch_size 4
+--eval_batch_size 16
 --dataloader_drop_last
 --dataloader_num_workers 4
 --dataloader_pin_memory
