@@ -5,7 +5,7 @@
 --category2id_path data/category2id.json
 --max_title_length 32
 --max_sapo_length 64
---his_length 50
+--his_length 30
 --seed 36
 --metrics auc
 
@@ -23,15 +23,15 @@
 --word_embed_dim 256
 --category_embed_dim 100
 --combine_type linear
---num_context_codes 32
+--num_context_codes 16
 --context_code_dim 200
 --score_type weighted
 --dropout 0.2
 
 # Train args
 --npratio 4
---train_batch_size 4
---eval_batch_size 16
+--train_batch_size 8
+--eval_batch_size 8
 --dataloader_drop_last
 --dataloader_num_workers 4
 --dataloader_pin_memory
