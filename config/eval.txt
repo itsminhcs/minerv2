@@ -1,6 +1,6 @@
 # Common args
 --model_name Miner
---pretrained_tokenizer vinai/phobert-base
+--pretrained_tokenizer google-bert/bert-base-uncased
 --user2id_path data/user2id.json
 --category2id_path data/category2id.json
 --max_title_length 32
